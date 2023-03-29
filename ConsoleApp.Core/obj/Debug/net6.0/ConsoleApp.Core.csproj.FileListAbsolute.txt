@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\bin\Debug\net6.0\ConsoleApp.Core.deps.json
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\bin\Debug\net6.0\ConsoleApp.Core.dll
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\bin\Debug\net6.0\ConsoleApp.Core.pdb
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\obj\Debug\net6.0\ConsoleApp.Core.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\obj\Debug\net6.0\ConsoleApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\obj\Debug\net6.0\ConsoleApp.Core.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\obj\Debug\net6.0\ConsoleApp.Core.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\obj\Debug\net6.0\ConsoleApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\obj\Debug\net6.0\ConsoleApp.Core.dll
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\obj\Debug\net6.0\refint\ConsoleApp.Core.dll
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\obj\Debug\net6.0\ConsoleApp.Core.pdb
+C:\Users\ASUS\source\repos\APPPP\ConsoleApp.Core\obj\Debug\net6.0\ref\ConsoleApp.Core.dll

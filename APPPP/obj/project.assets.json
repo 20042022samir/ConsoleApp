@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ConsoleApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ConsoleApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleApp.Core.dll": {}
+        }
+      },
+      "ConsoleApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ConsoleApp.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleApp.Data.dll": {}
+        }
+      },
+      "ConsoleApp.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ConsoleApp.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConsoleApp.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleApp.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleApp.Core/ConsoleApp.Core.csproj",
+      "msbuildProject": "../ConsoleApp.Core/ConsoleApp.Core.csproj"
+    },
+    "ConsoleApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleApp.Data/ConsoleApp.Data.csproj",
+      "msbuildProject": "../ConsoleApp.Data/ConsoleApp.Data.csproj"
+    },
+    "ConsoleApp.Service/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleApp.Service/ConsoleApp.Service.csproj",
+      "msbuildProject": "../ConsoleApp.Service/ConsoleApp.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ConsoleApp.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\APPPP\\APPPP\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "C:\\Users\\ASUS\\source\\repos\\APPPP\\APPPP\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\source\\repos\\APPPP\\APPPP\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\ASUS\\source\\repos\\APPPP\\ConsoleApp.Service\\ConsoleApp.Service.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\APPPP\\ConsoleApp.Service\\ConsoleApp.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
